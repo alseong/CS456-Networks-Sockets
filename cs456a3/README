@@ -1,0 +1,21 @@
+#README
+
+Requirements:
+1. Have python3 installed
+2. grading_topo.json must be in the current directory
+3. There should be nfe.py and nfe.sh provided by CS456 staff
+
+1) Start NFE in one tab: ./nfe.sh <NFE IP> <NFE PORT> grading_topo.json
+2) On each of 7 different tabs: ./vrouter.sh <NFE IP> <NFE PORT> <router id> 
+*Router id is from 1~7
+
+* Note if the shell script is not executable, run:
+1) chmod +x vrouter.sh
+2) chmod +x nfe.sh
+
+Tested on UWaterloo Undergraduate Linux Servers:
+ubuntu1804-002
+
+Written by:
+Minjun Seong (20662341)
+
