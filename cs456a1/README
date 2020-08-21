@@ -1,0 +1,15 @@
+#README
+
+How to run:
+1) Run server: ./server.sh {REQ CODE}
+2) Run client: ./client.sh {address} {n_port} {REQ CODE} "{MSG}"
+
+* Note if the shell script is not executable, run:
+1) chmod +x server.sh
+2) chmod +x client.sh
+
+Tested on UWaterloo Undergraduate Linux Servers:
+ubuntu1804-002, ubuntu1804-004, ubuntu1804-008.
+
+Written by:
+Minjun Seong (20662341)
